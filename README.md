@@ -1,12 +1,13 @@
 # NotPaid
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage)
+[![CocoaPods](https://img.shields.io/cocoapods/v/NotPaid.svg?style=flat-square)](https://cocoapods.org/pods/NotPaid)
 
 This is an iOS version of [kleampa/not-paid](https://github.com/kleampa/not-paid).
 
 ## Client did not pay?
 
-Add opacity to views and decrease it every day until their app completely fades away. Set a due date and customize the number of days you offer them until the website is fully vanished.
+Add opacity to views and decrease it every day until their app completely fades away. Set a due date and customize the number of days you offer them until the app is fully vanished.
 
 ```swift
 @UIApplicationMain
@@ -35,6 +36,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ```
 github "woxtu/NotPaid"
+```
+
+### CocoaPods
+
+```
+pod 'NotPaid'
 ```
 
 ## License
